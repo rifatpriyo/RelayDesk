@@ -7,16 +7,23 @@
 Turn products, policies, and business knowledge into helpful customer conversations.<br>
 Built for small businesses, starting with the way businesses work in Bangladesh.
 
+![Version](https://img.shields.io/badge/Version-0.1-192c22?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Next.js-16-192c22?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-7-3178c6?style=flat-square)
 ![Supabase](https://img.shields.io/badge/Supabase-Auth_%C2%B7_Data_%C2%B7_Files-3ecf8e?style=flat-square)
 ![Project status](https://img.shields.io/badge/Status-Working_local_demo-b6d6a3?style=flat-square)
 
-[Try it locally](#run-the-demo) · [What it does](#one-workspace-for-the-whole-conversation) · [Setup guides](#documentation)
+[About](#about) · [Try it locally](#run-the-demo) · [What it does](#one-workspace-for-the-whole-conversation) · [Setup guides](#documentation)
 
 </div>
 
 ![RelayDesk landing page with a product answer and a scheduled shipping notice](docs/images/relaydesk-landing.png)
+
+## About
+
+RelayDesk is a multichannel business assistant that helps small teams answer customer questions using their own approved products, policies, and business knowledge. It brings Messenger, Instagram, WhatsApp, and website conversations into one workspace, with staff ready to take over when a question needs human care.
+
+**This is version 0.1 (package version 0.1.0): an early preview, not a finished production release.** The local demo is working, but features and interfaces may change. Payments are simulated, and live provider integrations still require configuration and validation. This first version focuses on proving the workflow for small businesses in Bangladesh, including English, Bangla, and Banglish conversations.
 
 ## The problem
 
