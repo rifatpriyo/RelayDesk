@@ -1,0 +1,6 @@
+source_id,name,price,currency,stock
+bad-price,Needs price review,"1,850",BDT,10
+bad-stock,Needs stock review,450,BDT,Available
+missing-currency,Needs currency review,650,,2
+duplicate,First row,100,BDT,1
+duplicate,Duplicate row,200,BDT,2

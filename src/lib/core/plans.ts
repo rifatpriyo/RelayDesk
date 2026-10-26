@@ -1,0 +1,62 @@
+import type { Plan } from "./types";
+export const PLANS: Plan[] = [
+  {
+    id: "free",
+    name: "Free",
+    priceMinor: 0,
+    currency: "BDT",
+    replies: 200,
+    catalog: 100,
+    seats: 2,
+    sources: 2,
+    storageMb: 50,
+    syncMinutes: 1440,
+    purchasable: false,
+  },
+  {
+    id: "starter",
+    name: "Starter",
+    priceMinor: 99000,
+    currency: "BDT",
+    replies: 2000,
+    catalog: 1000,
+    seats: 5,
+    sources: 5,
+    storageMb: 500,
+    syncMinutes: 360,
+    purchasable: true,
+  },
+  {
+    id: "growth",
+    name: "Growth",
+    priceMinor: 299000,
+    currency: "BDT",
+    replies: 10000,
+    catalog: 10000,
+    seats: 15,
+    sources: 20,
+    storageMb: 2048,
+    syncMinutes: 60,
+    purchasable: true,
+  },
+  {
+    id: "scale",
+    name: "Scale",
+    priceMinor: null,
+    currency: "BDT",
+    replies: 0,
+    catalog: 0,
+    seats: 0,
+    sources: 0,
+    storageMb: 0,
+    syncMinutes: 0,
+    purchasable: false,
+  },
+];
+export const planById = (id: string) => PLANS.find((p) => p.id === id)!;
+export const formatMoney = (minor: number, currency = "BDT") =>
+  new Intl.NumberFormat("en-BD", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: minor % 100 ? 2 : 0,
+  }).format(minor / 100);

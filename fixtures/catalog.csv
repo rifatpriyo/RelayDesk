@@ -1,0 +1,4 @@
+source_id,sku,name,description,price,currency,stock,image,category,size
+linen-olive-m,LIN-OLIVE-M,Olive Linen Panjabi,Sample clothing catalog row,1850.00,BDT,12,/samples/panjabi.svg,Clothing,M
+tote-natural,TOTE-NAT,Everyday Cotton Tote,Sample natural cotton tote,450.00,BDT,18,/samples/tote.svg,Accessories,One size
+scarf-indigo,SCARF-IND,Indigo Handwoven Scarf,Stock requires confirmation,650.00,BDT,,/samples/scarf.svg,Accessories,One size

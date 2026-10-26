@@ -1,0 +1,6 @@
+[
+  {"role":"customer","text":"Can I exchange an unused item?"},
+  {"role":"business","text":"Our sample policy allows an exchange within seven days with original tags. Verify this policy before publishing."},
+  {"role":"customer","text":"Please email person@example.test about order #SAMPLE-42"},
+  {"role":"business","text":"We will ask our staff to help. This is a one-off conversation, not a general policy."}
+]

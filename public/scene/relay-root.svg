@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" fill="none">
+  <!-- Original RelayDesk vector fallback. Botanical scene art, not a product image. -->
+  <defs>
+    <linearGradient id="bark" x1="280" y1="690" x2="700" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#3b492c"/><stop offset=".45" stop-color="#73764a"/><stop offset="1" stop-color="#a0a16b"/></linearGradient>
+    <linearGradient id="moss" x1="350" y1="650" x2="650" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#496044"/><stop offset=".5" stop-color="#829051"/><stop offset="1" stop-color="#b3bb78"/></linearGradient>
+    <radialGradient id="mist"><stop stop-color="#92a765" stop-opacity=".14"/><stop offset="1" stop-color="#637c45" stop-opacity="0"/></radialGradient>
+    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence baseFrequency=".11" numOctaves="3" seed="28" type="fractalNoise" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="12" xChannelSelector="R" yChannelSelector="G"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+    <path id="arch" d="M-40 730C130 655 201 667 288 571C385 468 316 376 409 259C461 191 537 152 632 201C768 272 747 409 836 503C900 569 983 552 1140 607"/>
+    <path id="ridge" d="M-35 830C122 719 271 720 412 755C533 785 662 690 767 712C918 744 1020 686 1140 636"/>
+    <g id="fern" stroke="#7c965e" stroke-width="2" stroke-linecap="round"><path d="M0 0Q19-68 6-138"/><path d="M5-20Q-23-27-30-49Q-1-41 5-20M10-38Q35-42 43-64Q18-58 10-38M13-55Q-14-60-19-81Q8-72 13-55M15-73Q38-81 41-99Q19-92 15-73M14-91Q-6-100-7-116Q11-110 14-91M11-110Q27-120 25-133Q12-126 11-110" fill="#728f50" stroke="none"/></g>
+  </defs>
+  <ellipse cx="650" cy="440" rx="530" ry="410" fill="url(#mist)"/>
+  <g opacity=".45" stroke="#091e10" stroke-width="72" filter="url(#shadow)" transform="translate(12 23)"><use href="#arch"/><use href="#ridge"/></g>
+  <g stroke-linecap="round"><use href="#arch" stroke="url(#bark)" stroke-width="48"/><use href="#ridge" stroke="url(#bark)" stroke-width="45"/>
+    <g stroke="url(#bark)" stroke-width="15"><path d="M331 480C255 431 249 370 173 354M767 387C835 344 856 291 908 261M532 184C541 135 598 118 638 96M286 577C238 553 190 577 149 554"/></g>
+    <g stroke="url(#moss)" filter="url(#grain)"><use href="#arch" stroke-width="37" transform="translate(0 -14)"/><use href="#ridge" stroke-width="30" transform="translate(0 -15)"/><path d="M331 480C255 431 249 370 173 354M767 387C835 344 856 291 908 261" stroke-width="11"/></g>
+    <g stroke="#b6bf7e" opacity=".2" stroke-width="3"><path d="M15 711C168 649 220 627 285 554M392 278C450 192 513 170 577 182M690 237C746 309 750 401 791 449M18 803C202 700 310 752 405 743M654 719C738 695 793 720 869 709"/></g>
+  </g>
+  <g opacity=".85"><use href="#fern" transform="translate(285 550) rotate(-30) scale(1.15)"/><use href="#fern" transform="translate(306 532) rotate(28) scale(.8)"/><use href="#fern" transform="translate(750 705) rotate(30) scale(1.25)"/><use href="#fern" transform="translate(768 701) rotate(-20) scale(.85)"/><use href="#fern" transform="translate(930 552) rotate(49) scale(.7)"/><use href="#fern" transform="translate(570 182) rotate(-42) scale(.72)"/></g>
+  <g fill="#cad8a5" opacity=".35"><circle cx="244" cy="239" r="1.4"/><circle cx="840" cy="159" r="1"/><circle cx="658" cy="493" r="1.3"/><circle cx="958" cy="401" r="1.5"/><circle cx="472" cy="651" r="1"/><circle cx="749" cy="78" r="1.3"/><circle cx="128" cy="497" r="1"/><circle cx="501" cy="378" r="1.5"/><circle cx="912" cy="688" r="1.2"/><circle cx="806" cy="600" r="1"/></g>
+</svg>

@@ -1,0 +1,1 @@
+{"object":"whatsapp_business_account","entry":[{"id":"30003","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","metadata":{"display_phone_number":"SYNTHETIC","phone_number_id":"40004"},"messages":[{"from":"8801700000000","id":"wamid.fixture-001","timestamp":"1792533600","type":"text","text":{"body":"Can I speak to a person?"}}]}}]}]}

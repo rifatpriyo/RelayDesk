@@ -1,0 +1,4 @@
+2026-10-01, 10:00 - Customer: Do you deliver outside Dhaka?
+2026-10-01, 10:01 - Business: Sample policy: delivery outside Dhaka costs BDT 130. The owner must confirm this policy.
+2026-10-01, 10:02 - Customer: Can I get a one-off discount?
+2026-10-01, 10:03 - Business: Please ask our team. Do not publish personal discounts as a business policy.

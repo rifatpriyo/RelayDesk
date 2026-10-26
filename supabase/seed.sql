@@ -1,0 +1,4 @@
+-- Synthetic local businesses are seeded through src/lib/core/seed.ts when
+-- DEMO_MODE=true, never into a remote auth database. Production onboarding calls
+-- bootstrap_business only after Supabase verifies the signed-in user.
+-- To exercise RLS with real users, use the disposable pgTAP fixture below.

@@ -1,0 +1,4 @@
+id,sku,name,description,price,currency,stock,image
+linen-olive,LIN-OLV,Olive Linen Shirt,Light linen shirt in olive,1290.00,BDT,16,/samples/panjabi.svg
+tote-everyday,TOTE-EVD,Everyday Canvas Tote,Reusable canvas tote,490.00,BDT,20,/samples/tote.svg
+scarf-soft,SCF-SFT,Soft Cotton Scarf,Soft woven cotton scarf,650.00,BDT,,/samples/scarf.svg

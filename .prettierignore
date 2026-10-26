@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.relaydesk/
+.data/
+playwright-report/
+test-results/
+references/
+src/app/.well-known/workflow/
+package-lock.json
